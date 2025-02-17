@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       Environment:
-        description: 'Environment to deploy'
-        required: true
-        type: string
-        default: 'Stage'
+        description: 'Deploying to Stage'
+        # required: true
+        # type: string
+        # default: 'Stage'
 
   # workflow_dispatch:
   #   inputs:
