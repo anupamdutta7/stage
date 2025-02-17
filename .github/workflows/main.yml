@@ -6,8 +6,8 @@ on:
       Environment:
         description: 'Deploying to Stage'
         # required: true
-        # type: string
-        # default: 'Stage'
+        type: string
+        default: 'Stage'
 
   # workflow_dispatch:
   #   inputs:
