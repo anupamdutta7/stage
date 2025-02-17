@@ -1,22 +1,22 @@
 name: Stage Deployment
 
 on:
-  # workflow_dispatch:
-  #   inputs:
-  #     Environment:
-  #       description: 'Environment to deploy'
-  #       required: true
-  #       type: string
-  #       default: 'Stage'
-
   workflow_dispatch:
     inputs:
       Environment:
-        description: 'Select environment to deploy'
+        description: 'Environment to deploy'
         required: true
-        type: choice
-        options:
-          - Stage
+        type: string
+        default: 'Stage'
+
+  # workflow_dispatch:
+  #   inputs:
+  #     Environment:
+  #       description: 'Select environment to deploy'
+  #       required: true
+  #       type: choice
+  #       options:
+  #         - Stage
   push:
     branches:
       - stage
