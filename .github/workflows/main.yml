@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       Environment:
-        description: 'Deploying to Stage'
+        description: 'Deploying to:'
         # required: true
         type: string
         default: 'Stage'
